@@ -1,0 +1,123 @@
+
+.survey-container {
+font-family: 'Risque', sans-serif;
+max-width: 600px;
+margin: 0 auto;
+background: url('../data/backgroundimage.jpg') no-repeat center center;
+background-size: cover;
+padding: 40px;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+color: #333;
+}
+
+/* Style for the question header */
+.question-header {
+font-family: 'Risque', sans-serif;
+font-size: 24px;
+color: #ed1111;
+text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+margin-bottom: 20px;
+}
+
+/* Style for the choices */
+.choice-list {
+list-style: none;
+padding: 0;
+}
+
+.choice-item {
+margin-bottom: 10px;
+}
+
+/* Style for the radio buttons and labels */
+input[type='radio'] {
+margin-right: 10px;
+}
+
+label {
+display: block;
+padding: 10px;
+border-radius: 20px;
+cursor: pointer;
+transition: background 0.3s ease;
+}
+
+label:hover {
+background: rgba(255, 255, 255, 0.9);
+}
+
+/* Style for navigation buttons */
+.nav-buttons {
+display: flex;
+justify-content: space-between;
+margin-top: 20px;
+}
+
+button {
+padding: 10px 20px;
+font-family: 'Risque', sans-serif;
+font-size: 16px;
+color: #fff;
+background-color: #f04;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+button:hover {
+background-color: #c03;
+}
+
+button:disabled {
+background-color: #ccc;
+cursor: not-allowed;
+}
+
+/* Adjustments for the submit button */
+.submit-button {
+width: 100%;
+text-align: center;
+}
+
+.question-card {
+    width: 500px;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid black;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.navigation-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.navigation-buttons button {
+    width: 200px;
+}
+
+body {
+    background-image: url('../data/backgroundimage.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.submit-button {
+    background-color: blue;
+}
+
+.submit-button:hover {
+    background-color: darkblue;
+}

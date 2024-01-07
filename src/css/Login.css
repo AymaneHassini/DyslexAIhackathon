@@ -1,0 +1,98 @@
+/* src/Login.css */
+
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full height of the viewport */
+  background-image: url('/assets/hackathon.jpeg'); /* Path to your background image */
+  background-size: cover;
+  background-position: center;
+  padding: 2rem;
+}
+
+.login-content {
+  width: 100%;
+  max-width: 450px;
+  background: rgba(255, 255, 255, 0.95); /* Stronger transparency for readability */
+  padding: 2rem;
+  border-radius: 20px; /* Softer edges */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* More pronounced shadow */
+  text-align: center;
+}
+
+h1 {
+  font-family: 'OpenDyslexic', sans-serif; /* Dyslexia-friendly font */
+  font-size: 2.5rem; /* Larger font size for the app name */
+  color: #4e148c; /* A shade of purple for fantasy vibe */
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2); /* Text shadow for depth */
+}
+
+h2 {
+  font-family: 'OpenDyslexic', sans-serif;
+  font-size: 1.75rem; /* Slightly larger for visibility */
+  color: #6a1b9a; /* Consistent with button color for theme consistency */
+  margin-bottom: 2rem;
+}
+
+.form-field input {
+  font-family: 'OpenDyslexic', sans-serif;
+  width: 100%;
+  padding: 15px; /* Increased padding for touch friendliness */
+  margin-bottom: 1.5rem;
+  border: 2px solid #dcdcdc; /* Lighter border for a softer look */
+  border-radius: 10px; /* Rounded borders for a friendly feel */
+  box-sizing: border-box;
+  background-color: #f9f9f9; /* Light background to make text stand out */
+}
+
+.form-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem; /* Increased font size for better readability */
+  margin-bottom: 2rem;
+}
+
+.checkbox-field {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-field input {
+  margin-right: 10px; /* Increased space for easier click */
+}
+
+.forgot-password {
+  color: #2874A6; /* Softer blue for a friendly and clickable look */
+  text-decoration: underline; /* Underline for clarity */
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: #6a1b9a; /* Purple shade for a magical vibe */
+  color: white;
+  font-family: 'OpenDyslexic', sans-serif;
+  font-size: 1.25rem; /* Larger font size for easier reading */
+  cursor: pointer;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3); /* Deeper shadow for a pop-out effect */
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #7d54c1; /* Lighter purple on hover for interaction feedback */
+}
+
+.register-link {
+  margin-top: 2rem;
+  font-size: 1rem; /* Increased font size for visibility */
+}
+
+.register-link a {
+  color: #2874A6; /* Link color matching the forgot password for consistency */
+  text-decoration: underline; /* Underline to indicate clickability */
+}
